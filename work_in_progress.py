@@ -45,10 +45,6 @@ for i in range(1, len(content)):
     
 from keras.preprocessing.image import ImageDataGenerator
 
-! cd ..
-! cd ..
-! ls
-
 path = "cropped_images"
 
 datagen = ImageDataGenerator(rotation_range=20, width_shift_range=0.2, height_shift_range=0.2, horizontal_flip=True)
